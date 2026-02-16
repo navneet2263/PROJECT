@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #f8fafc;
+  --surface-elevated: #ffffff;
+  --border: #e2e8f0;
+  --muted: #64748b;
+  --accent: #0f766e;
+}
+
+.dark {
+  --surface: #0f172a;
+  --surface-elevated: #1e293b;
+  --border: #334155;
+  --muted: #94a3b8;
+  --accent: #2dd4bf;
+}
+
+body {
+  @apply bg-surface text-slate-900 dark:text-slate-100;
+}
