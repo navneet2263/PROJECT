@@ -1,11 +1,6 @@
 {
   "/page": "app/page.js",
-  "/production/vogel-ipr/page": "app/production/vogel-ipr/page.js",
-  "/drilling/maasp/page": "app/drilling/maasp/page.js",
-  "/artificial-lift/page": "app/artificial-lift/page.js",
-  "/artificial-lift/esp-head/page": "app/artificial-lift/esp-head/page.js",
-  "/well-logging/archie-saturation/page": "app/well-logging/archie-saturation/page.js",
-  "/reservoir/page": "app/reservoir/page.js",
-  "/reservoir/formation-volume-factor/page": "app/reservoir/formation-volume-factor/page.js",
-  "/well-logging/page": "app/well-logging/page.js"
+  "/production/page": "app/production/page.js",
+  "/production/productivity-index/page": "app/production/productivity-index/page.js",
+  "/production/ipr/page": "app/production/ipr/page.js"
 }

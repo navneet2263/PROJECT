@@ -1,8 +1,10 @@
 import CalculatorCard from "@/components/CalculatorCard";
 
 const CALCULATORS = [
-  { href: "/production/productivity-index", title: "Productivity Index", description: "PI from rate and pressures." },
-  { href: "/production/vogel-ipr", title: "Vogel IPR", description: "Inflow performance relationship with graph." },
+  { href: "/production/porosity", title: "Porosity", description: "Porosity from bulk and pore volumes." },
+  { href: "/production/productivity-index", title: "Productivity Index", description: "PI for steady, transient, horizontal, and fractured wells." },
+  { href: "/production/relative-permeability", title: "Relative Permeability (Corey)", description: "Oil and water relative permeabilities from Corey model." },
+  { href: "/production/ipr", title: "IPR Analysis", description: "Inflow performance relationships for oil and gas wells." },
 ];
 
 export default function ProductionPage() {

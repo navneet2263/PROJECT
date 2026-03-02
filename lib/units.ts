@@ -45,6 +45,8 @@ const TO_SI: Record<QuantityType, Record<string, number>> = {
     "bbl/d": 0.158987 / 86400,
     "m³/d": 1 / 86400,
     "m³/s": 1,
+    "MSCF/d": (1000 * 0.0283168) / 86400,
+    "MMSCF/d": (1e6 * 0.0283168) / 86400,
   },
   permeability: {
     mD: 9.86923e-16,

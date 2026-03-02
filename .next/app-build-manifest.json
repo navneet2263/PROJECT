@@ -11,36 +11,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/reservoir/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/reservoir/page.js"
-    ],
-    "/reservoir/stoiip/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/reservoir/stoiip/page.js"
-    ],
-    "/economics/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/economics/page.js"
-    ],
-    "/economics/break-even-oil-price/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/economics/break-even-oil-price/page.js"
-    ],
-    "/drilling/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/drilling/page.js"
-    ],
-    "/drilling/maasp/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/drilling/maasp/page.js"
-    ],
     "/production/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -51,35 +21,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/production/productivity-index/page.js"
     ],
-    "/production/vogel-ipr/page": [
+    "/production/ipr/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/production/vogel-ipr/page.js"
-    ],
-    "/artificial-lift/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/artificial-lift/page.js"
-    ],
-    "/artificial-lift/esp-head/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/artificial-lift/esp-head/page.js"
-    ],
-    "/well-logging/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/well-logging/page.js"
-    ],
-    "/well-logging/archie-saturation/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/well-logging/archie-saturation/page.js"
-    ],
-    "/reservoir/formation-volume-factor/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/reservoir/formation-volume-factor/page.js"
+      "static/chunks/app/production/ipr/page.js"
     ]
   }
 }
