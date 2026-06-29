@@ -1,6 +1,5 @@
 {
-  "/page": "app/page.js",
   "/production/page": "app/production/page.js",
-  "/production/productivity-index/page": "app/production/productivity-index/page.js",
-  "/production/ipr/page": "app/production/ipr/page.js"
+  "/production/well-performance/page": "app/production/well-performance/page.js",
+  "/page": "app/page.js"
 }

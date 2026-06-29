@@ -16,15 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/production/page.js"
     ],
-    "/production/productivity-index/page": [
+    "/production/well-performance/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/production/productivity-index/page.js"
-    ],
-    "/production/ipr/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/production/ipr/page.js"
+      "static/chunks/app/production/well-performance/page.js"
     ]
   }
 }

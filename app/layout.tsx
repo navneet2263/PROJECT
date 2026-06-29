@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { SimulationStateProvider } from "@/components/SimulationStateProvider";
 
 export const metadata: Metadata = {
   title: "PetroCalc — Petroleum Engineering Calculators",
@@ -18,8 +19,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="min-h-screen antialiased">
-        <Navbar />
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">{children}</main>
+        <SimulationStateProvider>
+          <Navbar />
+          <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">{children}</main>
+        </SimulationStateProvider>
       </body>
     </html>
   );

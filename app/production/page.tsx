@@ -5,6 +5,7 @@ const CALCULATORS = [
   { href: "/production/productivity-index", title: "Productivity Index", description: "PI for steady, transient, horizontal, and fractured wells." },
   { href: "/production/relative-permeability", title: "Relative Permeability (Corey)", description: "Oil and water relative permeabilities from Corey model." },
   { href: "/production/ipr", title: "IPR Analysis", description: "Inflow performance relationships for oil and gas wells." },
+  { href: "/production/well-performance", title: "Well Performance Simulator", description: "Analyze well deliverability using IPR, VLP, and nodal analysis to determine the operating point." },
 ];
 
 export default function ProductionPage() {

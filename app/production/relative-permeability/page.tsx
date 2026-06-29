@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import CalculatorLayout from "@/components/CalculatorLayout";
 import UnitInput from "@/components/UnitInput";
 import ResultPanel from "@/components/ResultPanel";
-import GraphPanel from "@/components/GraphPanel";
+import GenericGraphPanel from "@/components/GenericGraphPanel";
 import { coreyRelPermAtSw, coreyRelPermCurve, type CoreyRelPermPoint, type CoreyRelPermParams } from "@/lib/production";
 
 export default function RelativePermeabilityPage() {
@@ -270,7 +270,7 @@ export default function RelativePermeabilityPage() {
       </div>
       {graphData.length > 0 && (
         <div className="mt-8">
-          <GraphPanel
+          <GenericGraphPanel
             title="Relative permeability vs water saturation"
             data={graphData}
             xKey="sw"

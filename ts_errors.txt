@@ -1,0 +1,1 @@
+﻿app/production/well-performance/page.tsx(143,10): error TS2739: Type '{ children: Element; title: string; description: string; }' is missing the following properties from type 'CalculatorLayoutProps': sectionHref, sectionLabel
